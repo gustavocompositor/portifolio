@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div id="background" class="background"></div>
+
+  <header>
+    <div class="left">
+      <h1 id="username">Gustavo Corona</h1>
+      <div class="socials">
+        <a href="https://www.instagram.com/gustavocomposer/" aria-label="Instagram" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.instagram.com/gustavocomposer/" aria-label="Spotify" target="_blank"
+          ><i class="fab fa-spotify"></i
+        ></a>
+      </div>
+    </div>
+    <div class="right">
+      <p class="bio">
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <button class="arrow left" id="prevBtn" aria-label="Previous Track">
+      &#10094;
+    </button>
+
+    <div class="slide-container">
+      <div class="slide-content">
+        <h2 id="music-title">Loading...</h2>
+        <audio id="audio-player" controls></audio>
+      </div>
+    </div>
+
+    <button class="arrow right" id="nextBtn" aria-label="Next Track">
+      &#10095;
+    </button>
+  </main>
+
+  <footer>
+    <div id="piano" class="piano"></div>
+  </footer>
+</body>
+</html>
