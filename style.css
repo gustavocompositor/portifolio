@@ -209,13 +209,3 @@ footer {
   filter: brightness(1.4);
   box-shadow: 0 0 25px #666, 0 3px 15px #888;
 }
-
-@media (max-width: 768px) {
-  .bio {
-    display: none;
-  }
-
-  #piano {
-    display: none;
-  }
-}
